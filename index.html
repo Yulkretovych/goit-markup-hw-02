@@ -1,33 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styless.css" />
   </head>
 
   <body>
     <!--Header-->
-    <header>
-      <a href="./index.html">WebStudio</a>
+    <header class="page-header">
+      <a class="logo logo-header" href="./index.html"
+        >Web<span class="logo-part">Studio</span></a
+      >
 
-      <nav>
-        <ul>
-          <li>
-            <a href="./index.html">Studio</a>
+      <nav class="nav-header">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Studio</a>
           </li>
-          <li>
-            <a href="./index.html">Portfolio</a>
+          <li class="nav-list">
+            <a class="nav-link" href="">Portfolio</a>
           </li>
-          <li>
-            <a href="./index.html">Contacts</a>
+          <li class="nav-item">
+            <a class="nav-link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
 
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+      <address class="contacts">
+        <ul>
+          <li>
+            <a class="contacts-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
       </address>
     </header>
 
@@ -99,6 +125,45 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+
+        <!--Portfolio-->
+        <h2 class="title">Our Portfolio</h2>
+        <ul>
+          <li>
+            <img src="./images/img-banking.jpg" alt="app-icons" width="360" />
+            <h3 class="subtitle">Banking App</h3>
+            <p class="descr">App</p>
+          </li>
+          <li>
+            <img
+              src="./images/img-cashless.jpg"
+              alt="payment-via-cash-terminal"
+              width="360"
+            />
+            <h3 class="subtitle">Cashless Payment</h3>
+            <p class="descr">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img-meditation.jpg" alt="laptop" width="360" />
+            <h3 class="subtitle">Meditation App</h3>
+            <p class="descr">App</p>
+          </li>
+          <li>
+            <img src="./images/img-taxi.jpg" alt="car" width="360" />
+            <h3 class="subtitle">Taxi Service</h3>
+            <p class="descr">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/img-screen.jpg" alt="phone-screen" width="360" />
+            <h3 class="subtitle">Screen Illustrations</h3>
+            <p class="descr">Design</p>
+          </li>
+          <li>
+            <img src="./images/img-online.jpg" alt="girl" width="360" />
+            <h3 class="subtitle">Online Courses</h3>
+            <p class="descr">Marketing</p>
           </li>
         </ul>
       </section>
