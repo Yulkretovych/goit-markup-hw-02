@@ -56,7 +56,7 @@ a {
 .main-header {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.1;
+        line-height: 1.07143;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -74,6 +74,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 
 }
 
@@ -106,7 +107,7 @@ a {
 .second-header {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
