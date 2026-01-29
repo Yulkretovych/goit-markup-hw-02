@@ -100,7 +100,7 @@ a {
         color: #434455;
 }
 
-.hero-third {
+.team-section {
     background: #f4f4fd;
 }
 
@@ -122,7 +122,7 @@ font-weight: 700;
     text-align: center;
 }
 
-.hero-third .descr {
+.team-section .descr {
     text-align: center;
 }
 
